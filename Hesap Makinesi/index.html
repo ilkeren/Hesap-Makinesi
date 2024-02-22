@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/calculator.png">
+    <title>Hesap Makinesi</title>
+</head>
+
+<body>
+    <div class="kutu">
+        <h1>HESAP MAKİNESİ</h1>
+        <form action="">
+            <div class="ilkgiris">
+                <p>1.Sayıyı Girniz</p>
+                <input type="text" id="sayi1" placeholder="Sayıyı Girniz">
+            </div>
+            <div class="ikincigiris">
+                <p>2.Sayıyı Girniz</p>
+                <input type="text" id="sayi2" placeholder="Sayıyı Girniz">
+            </div>
+            <div class="butonlar">
+                <input type="button" value="+" id="Toplama">
+                <input type="button" value="-" id="Çikarma">
+                <input type="button" value="x" id="Çarpma">
+                <input type="button" value="÷" id="Bölme">
+            </div>
+            <div class="sonuc">
+                <h3>SONUCUNUZ</h3>
+                <div class="kutu2">
+                    <div id="goster"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
